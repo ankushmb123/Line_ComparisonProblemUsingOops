@@ -14,6 +14,7 @@ namespace Line_ComparisonProblemUsingOops
             Console.WriteLine("... Welcome to Line Comparison Computation ... ");
             Line_comparision Linecom = new Line_comparision();
             Linecom.length_line();
+            Linecom.function_check();
             Console.ReadKey();
         }
     }
